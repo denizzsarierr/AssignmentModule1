@@ -10,3 +10,9 @@ def inverse(X):
 
     return np.linalg.inv(X)
 
+def transpose(X):
+
+    return X.transpose()
+
+
+
