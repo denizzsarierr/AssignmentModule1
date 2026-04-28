@@ -14,5 +14,9 @@ def transpose(X):
 
     return X.transpose()
 
+def power(X,n):
+
+    return np.linalg.matrix_power(X,n)
+
 
 
