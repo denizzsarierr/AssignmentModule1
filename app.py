@@ -18,5 +18,14 @@ def power(X,n):
 
     return np.linalg.matrix_power(X,n)
 
+def operations(X,Y,n):
 
+    print(f"Dot Product of X and Y: {dot_product(X,Y)}")
+    print("===========================================")
+    print(f"Inverse of X: {inverse(X)}")
+    print("===========================================")
+    print(f"Transpose of X: {transpose(X)}")
+    print("===========================================")
+    print(f"X to the power of {n}: {power(X,n)}")
+    print(f"==========================================")
 
